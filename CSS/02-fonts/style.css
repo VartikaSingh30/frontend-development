@@ -1,0 +1,104 @@
+/* FONT COLOR */
+#A1 {
+    color: blue;
+}
+#A2 {
+    color: #ff5733;
+}
+#A3 {
+    color: rgb(34, 139, 34);
+}
+#A4 {
+    color: rgba(255, 0, 0, 0.5);
+}
+#A5 {
+    color: hsl(240, 100%, 50%);
+}
+#A6 {
+    color: hsla(120, 100%, 25%, 0.7);
+}
+
+
+/* FONT SIZE */
+#A7 {
+    font-size: small;
+}
+#A8 {
+    font-size: medium;
+}
+#A9 {
+    font-size: large;
+}
+#A10 {
+    font-size: 20px;
+}
+#A11 {
+    font-size: 1.5em;
+}
+#A12 {
+    font-size: 120%;
+}
+
+/* FONT STYLE */
+#A13 {
+    font-style: normal;
+}
+#A14 {
+    font-style: italic;
+}
+#A15 {
+    font-style: oblique;
+}
+
+/* FONT VARIANT*/
+#A16 {
+    font-variant: normal;
+}
+#A17 {
+    font-variant: small-caps;
+}
+
+/* FONT WEIGHT */
+#A18 {
+    font-weight: normal;
+}
+#A19 {
+    font-weight: bold;
+}
+#A20 {
+    font-weight: bolder;
+}
+#A21 {
+    font-weight: lighter;
+}
+#A22 {
+    font-weight: 100;
+}
+
+/* FONT FAMILY */
+#A23 {
+    font-family: Arial, sans-serif;
+}
+#A24 {
+    font-family: 'Times New Roman', serif;
+}
+#A25 {
+    font-family: 'Courier New', monospace;
+}
+#A26 {
+    font-family: 'Georgia', serif;
+}
+#A27 {
+    font-family: 'Verdana', sans-serif;
+}
+#A28 {
+    font-family: 'Lucida Console', monospace;
+}
+
+/* COMBINED FONT PROPERTIES */
+#A29 {
+    font: italic small-caps bold 16px/1.5 'Arial', sans-serif;
+}
+#A30 {
+    font: oblique normal 20px/2 'Times New Roman', serif;
+}   

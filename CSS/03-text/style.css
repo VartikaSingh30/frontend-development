@@ -1,0 +1,117 @@
+/* TEXT DECORATION */
+#A1{
+    text-decoration: overline;
+}
+#A2{
+    text-decoration: underline;
+}
+#A3{
+    text-decoration: line-through;
+}
+#A4{
+    text-decoration: none;
+}
+
+/* TEXT ALIGNMENT */
+#A5{
+    text-align: left;
+}
+#A6{
+    text-align: right;
+}   
+#A7{
+    text-align: center;
+}
+#A8{
+    text-align: justify;
+}
+
+/* TEXT TRANSFORM */
+#A9{
+    text-transform: uppercase;
+}
+#A10{
+    text-transform: lowercase;
+}
+#A11{
+    text-transform: capitalize;
+}
+#A12{
+    text-transform: none;
+}
+
+
+/* TEXT SPACING */
+#A13{
+    letter-spacing: normal;
+}
+#A14{
+    letter-spacing: 5px;
+}
+#A15{
+    letter-spacing: 5em;
+}
+
+/* LINE HEIGHT */
+#A16{
+    line-height: normal;
+}
+#A17{
+    line-height: 20;
+}
+#A18{
+    line-height: 5px;
+}
+#A19{
+    line-height: 10%;
+}
+
+/* WORD SPACING */
+#A20{
+    word-spacing: normal;
+}
+#A21{
+    word-spacing: 10px;
+}
+#A22{
+    word-spacing: 2%;
+}
+
+
+/* TEXT INDENT */
+#A23{
+    text-indent: 50px;
+} 
+#A24{
+    text-indent: 2em;
+} 
+#A25{
+    text-indent: 10%;
+} 
+
+
+
+/* TEXT COLOR */
+#A26 {
+    color: blue;
+}
+#A27 {
+    color: #ff5733;
+}
+#A28 {
+    color: rgb(34, 139, 34);
+}
+#A29 {
+    color: rgba(255, 0, 0, 0.5);
+}
+#A30 {
+    color: hsl(240, 100%, 50%);
+}
+#A31 {
+    color: hsla(120, 100%, 25%, 0.7);
+}
+
+
+
+
+

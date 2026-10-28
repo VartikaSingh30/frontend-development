@@ -1,0 +1,44 @@
+/* UNORDERED LIST STYLES */
+#A1{
+    list-style-type: disc;  
+}
+#A2{
+    list-style-type: circle;
+}
+#A3{
+    list-style-type: square;
+}
+#A4{
+    list-style-type: none;
+}
+
+/* ORDERED LIST STYLES */
+#A5{
+    list-style-type: decimal;
+}
+#A6{
+    list-style-type: decimal-leading-zero;
+}
+#A7{
+    list-style-type: lower-roman;
+}
+#A8{
+    list-style-type: upper-roman;
+}
+#A9{
+    list-style-type: lower-alpha;
+}
+#A10{
+    list-style-type: upper-alpha;
+}
+
+/* LIST STYLE POSITION */
+#A11{
+    list-style-position: inside;
+}
+#A12{
+    list-style-position: outside;
+}
+
+
+

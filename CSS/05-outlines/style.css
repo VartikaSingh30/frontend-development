@@ -1,0 +1,82 @@
+/* OUTLINE STYLE */
+#A1 {
+    outline-style: dotted;
+}
+#A2 {
+    outline-style: dashed;
+}
+#A3 {
+    outline-style: solid;
+}
+#A4 {
+    outline-style: double;
+}
+#A5{
+    outline-style: groove; 
+    outline-width: 6px;
+    
+}
+#A6{
+    outline-style: ridge; 
+    outline-width: 6px;
+}
+#A7{
+    outline-style: inset;
+    outline-width: 6px; 
+}
+#A8{
+    outline-style: outset;
+    outline-width: 6px; 
+}
+#A9{
+    outline-style: none; 
+}
+
+/* OUTLINE COLOR */
+#A10 {
+    color: blue;
+}
+#A11 {
+    color: #ff5733;
+}
+#A12 {
+    color: rgb(34, 139, 34);
+}
+#A13 {
+    color: rgba(255, 0, 0, 0.5);
+}
+#A14 {
+    color: hsl(240, 100%, 50%);
+}
+#A15 {
+    color: hsla(120, 100%, 25%, 0.7);
+}
+
+/* OUTLINE WIDTH */
+#A16{
+    outline-style: solid;
+    outline-width: thin;
+}
+#A17{
+    outline-style: solid;
+    outline-width: medium;
+}
+#A18{
+    outline-style: solid;
+    outline-width: thick;
+}
+#A19{
+    outline-style: solid;
+    outline-width: 5px;
+}
+
+/* OUTLINE OFFSET */
+#A20{
+    outline-style: solid;
+    outline-offset: 3px;
+}
+#A21{
+    outline-style: solid;
+    outline-offset: 12px;
+}
+

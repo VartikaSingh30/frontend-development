@@ -1,0 +1,29 @@
+/* USING FONT AWESOME ICONS */
+#A1 {
+  color: red;
+  font-size: 30px;
+}
+#A2 {
+  color: blue;
+  font-size: 25px;
+}
+#A3 {
+  color: green;
+  font-size: 20px;
+}
+
+/* USING UNICODE ICONS */
+#A4 {
+  font-size: 25px;
+  color: orange;
+}
+#A5 {
+  font-size: 25px;
+  color: purple;
+}
+
+/* USING IMAGE AS ICON */
+.A6 {
+  width: 30px;
+  height: 30px;
+}

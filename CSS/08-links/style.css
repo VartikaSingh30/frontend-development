@@ -1,0 +1,28 @@
+/* NORMAL LINK STYLING */
+a {
+    color: blue;
+    text-decoration: none; 
+}
+
+/* COMMON LINK STATES */
+
+/* Normal Link */
+a:link {
+    color: green;   
+}
+
+/* After Click Styling  */
+a:visited {
+    color: purple;  
+}
+
+/* Hover Styling */
+a:hover {
+    color: red; 
+}
+
+/* Click Styling */
+a:active {
+    color: orange; 
+}
+

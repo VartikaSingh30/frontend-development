@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h3 {
+  padding: 20px;
+  margin: 15px 0;
+  color: white;
+  border: 3px solid black;
+}
+
+div {
+  height: 200px;
+  width: 100%;
+  margin: 20px 0;
+  border: 3px solid black;
+  color: white;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* BACKGROUND COLOR */
+#A1 {
+  background-color: red;
+}
+
+#A2 {
+  background-color: #00ff00;
+  color: black;
+}
+
+#A3 {
+  background-color: rgb(0, 0, 255);
+}
+
+#A4 {
+  background-color: rgba(255, 165, 0, 0.7);
+}
+
+#A5 {
+  background-color: hsl(300, 100%, 40%);
+}
+
+#A6 {
+  background-color: hsla(180, 100%, 30%, 0.7);
+}
+
+/* BACKGROUND IMAGE */
+#A7 {
+  background-image: url("profile.png");
+  background-repeat: no-repeat;
+}
+
+/* BACKGROUND REPEAT */
+#A8 {
+  background-image: url("profile.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+/* BACKGROUND POSITION */
+#A9 {
+  background-image: url("profile.png");
+  background-position: center;
+}
+
+/* BACKGROUND SIZE */
+#A10 {
+  background-image: url("profile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#A11 {
+  background-image: url("profile.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* BACKGROUND ATTACHMENT */
+#A12 {
+  background-image: url("profile.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#A13 {
+  background-image: url("profile.png");
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+
+
+
+
+

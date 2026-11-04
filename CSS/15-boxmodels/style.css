@@ -1,0 +1,40 @@
+/* HEIGHT */
+.box1{
+    height: 50px;
+    background-color: lightskyblue;
+}
+
+/* WIDTH */
+.box2{
+    width: 100px;
+    background-color: lightcoral;
+}
+
+/* BORDER */
+.box3{
+    border: 2px solid black;
+    background-color: lightgreen;
+}
+
+/* MARGIN */
+.box4{
+    margin: 20px;
+    background-color: lightpink;
+}
+
+/* PADDING */
+.box5{
+    padding: 20px;
+    background-color: greenyellow;
+}
+
+/* COMBINED BOX MODEL */
+.box6{
+    background-color: yellow;
+    height: 100px;
+    width: 200px;
+    border: 5px solid black;
+    margin: 100px;
+    padding: 20px;
+  
+}

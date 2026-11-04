@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h3 {
+  margin-bottom: 30px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  transition: 0.4s;
+}
+
+/* BASIC IMAGE */
+#A1 {
+  width: 200px;
+  height: 200px;
+}
+
+/* RESPONSIVE IMAGE */
+#A2 {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ROUNDED CORNERS */
+#A3 {
+  border-radius: 20px;
+}
+
+/* CIRCLE IMAGE */
+#A4 {
+  border-radius: 50%;
+}
+
+/* OPACITY */
+#A5 {
+  opacity: 0.5;
+}
+
+/* HOVER OPACITY */
+#A6 {
+  opacity: 0.5;
+}
+
+#A6:hover {
+  opacity: 1;
+}
+
+/* BOX SHADOW */
+#A7 {
+  box-shadow: 5px 5px 10px gray;
+}
+
+
+

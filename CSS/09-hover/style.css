@@ -1,0 +1,15 @@
+/* HOVER ON LINKS */
+#A1{
+    color: crimson;
+}
+#A2{
+    text-decoration: underline;
+}
+#A3{
+    background-color: aquamarine;
+}
+#A4{
+    transition: 0.5s ;
+}
+
+

@@ -1,0 +1,29 @@
+ /* CURSOR POINTER */
+    #A1{
+        cursor: pointer;
+    }
+
+/* CURSOR DEFAULT */
+    #A2{
+        cursor: default;
+    }
+     /* CURSOR TEXT */
+    #A3{
+        cursor: text;
+    }
+
+/* CURSOR MOVE */
+    #A4{
+        cursor: move;
+    
+    }
+
+/* CURSOR NOT-ALLOWED */
+    #A5{
+        cursor: not-allowed;
+    }
+
+/* CURSOR WAIT */
+    #A6{
+        cursor: wait;
+    }

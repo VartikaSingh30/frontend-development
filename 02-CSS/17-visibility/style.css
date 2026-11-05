@@ -1,0 +1,19 @@
+/* VISIBLE */
+#A1{
+    visibility: visible;
+}
+
+/* HIDDEN */
+#A2{
+    visibility: hidden;
+}
+
+/* NONE */
+#A3{
+    visibility: none;
+}
+
+/* COLLAPSED */
+#A4{
+    visibility: collapse;
+}

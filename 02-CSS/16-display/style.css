@@ -1,0 +1,49 @@
+ /* COMON STYLE */
+    div{
+        border: 2px solid black;
+        padding: 15px;
+        margin: 10px;
+        background-color: lightblue;
+    }
+
+/* BLOCK */
+    #A1{
+        display: block;
+    }
+
+/* INLINE */
+    #A2{
+        display: inline;
+    }
+
+/* INLINE-BLOCK */
+    #A3{
+        display: inline-block;
+        width: 200px;
+        height: 60px;
+    }
+
+ /* NONE */
+    #A4{
+        display: none;
+    }
+
+/* FLEX */
+    #A5{
+        display: flex;
+        gap: 10px;
+        background-color: lightgreen;
+    }
+
+/* GRID */
+    #A6{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+        background-color: pink;
+    }
+    span{
+        border: 1px solid red;
+        padding: 10px;
+        background-color: white;
+    }

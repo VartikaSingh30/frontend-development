@@ -1,0 +1,87 @@
+/* COMMON STYLE */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+div {
+    width: 150px;
+    height: 80px;
+    line-height: 80px;
+    margin: 20px auto;
+    background-color: lightblue;
+    border: 2px solid black;
+    position: relative;
+}
+
+/* KEYFRAMES */
+@keyframes moveBox {
+    from {
+        left: 0;
+        background-color: lightblue;
+    }
+    to {
+        left: 200px;
+        background-color: coral;
+    }
+}
+
+/* ANIMATION-NAME */
+#A1 {
+    animation-name: moveBox;
+    animation-duration: 2s;
+}
+
+/* ANIMATION-DURATION */
+#A2 {
+    animation-name: moveBox;
+    animation-duration: 4s;
+}
+
+/* ANIMATION-TIMING-FUNCTION */
+#A3 {
+    animation-name: moveBox;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+
+/* ANIMATION-DELAY */
+#A4 {
+    animation-name: moveBox;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+/* ANIMATION-ITERATION-COUNT */
+#A5 {
+    animation-name: moveBox;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+/* ANIMATION-DIRECTION */
+#A6 {
+    animation-name: moveBox;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* ANIMATION-FILL-MODE */
+#A7 {
+    animation-name: moveBox;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+/* ANIMATION-PLAY-STATE */
+#A8 {
+    animation-name: moveBox;
+    animation-duration: 2s;
+    animation-play-state: running;
+}
+
+/* ANIMATION-SHORTHAND */
+#A9 {
+    animation: moveBox 3s linear 1s infinite alternate forwards;
+}

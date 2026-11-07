@@ -1,0 +1,79 @@
+/* COMMON STYLE */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    border: 3px solid black;
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    background-color: lightgray;
+}
+
+.container div {
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 5px;
+    width: 60px;
+}
+
+/* FLEX-DIRECTION */
+#A2 {
+    flex-direction: column;
+}
+
+/* FLEX-WRAP */
+#A3 {
+    flex-wrap: wrap;
+}
+
+/* JUSTIFY-CONTENT */
+#A4 {
+    justify-content: space-between;
+}
+
+/* ALIGN-ITEMS */
+.tall {
+    height: 200px;
+}
+
+#A5 {
+    align-items: center;
+}
+
+/* ALIGN-CONTENT */
+.wrap {
+    flex-wrap: wrap;
+}
+
+#A6 {
+    align-content: space-around;
+}
+
+/* GAP */
+#A7 {
+    gap: 30px;
+}
+
+/* FLEX-GROW */
+.grow {
+    flex-grow: 2;
+}
+
+/* FLEX-SHRINK */
+.small {
+    width: 250px;
+}
+
+.shrink {
+    flex-shrink: 3;
+}
+
+/* ORDER */
+.order {
+    order: -1;
+}

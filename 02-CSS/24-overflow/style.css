@@ -1,0 +1,47 @@
+/* COMMON STYLE */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+div {
+    width: 250px;
+    height: 80px;
+    margin: 30px auto;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: lightblue;
+}
+
+/* OVERFLOW-VISIBLE */
+#A1 {
+    overflow: visible;
+}
+
+/* OVERFLOW-HIDDEN */
+#A2 {
+    overflow: hidden;
+}
+
+/* OVERFLOW-SCROLL */
+#A3 {
+    overflow: scroll;
+}
+
+/* OVERFLOW-AUTO */
+#A4 {
+    overflow: auto;
+}
+
+/* OVERFLOW-X */
+#A5 {
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+/* OVERFLOW-Y */
+#A6 {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

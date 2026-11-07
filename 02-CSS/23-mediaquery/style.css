@@ -1,0 +1,64 @@
+/* COMMON STYLE */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+div {
+    width: 250px;
+    height: 80px;
+    line-height: 80px;
+    margin: 20px auto;
+    border: 2px solid black;
+    background-color: lightblue;
+}
+
+/* DEFAULT SCREEN */
+#A1 {
+    background-color: lightgreen;
+}
+
+/* MAX-WIDTH: SCREEN 600PX OR LESS */
+@media screen and (max-width: 600px) {
+    #A2 {
+        background-color: coral;
+        width: 100%;
+    }
+}
+
+/* MIN-WIDTH: SCREEN 601PX OR MORE */
+@media screen and (min-width: 601px) {
+    #A3 {
+        background-color: yellow;
+        font-size: 24px;
+    }
+}
+
+/* ORIENTATION: LANDSCAPE */
+@media screen and (orientation: landscape) {
+    #A4 {
+        background-color: violet;
+    }
+}
+
+/* PRINT MODE */
+@media print {
+    #A5 {
+        color: white;
+        background-color: black;
+    }
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    #A6 {
+        background-color: gray;
+        color: white;
+    }
+}
